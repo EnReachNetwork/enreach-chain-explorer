@@ -1,0 +1,25 @@
+{
+    "chain_name": "Enreach Devnet",
+    "api": [
+        "http://150.109.123.18:1317"
+    ],
+    "rpc": [
+        "http://150.109.123.18:26657"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.50.6",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "enreach",
+    "logo": "/logos/axelar.svg",
+    "theme_color": "#161723",
+    "assets": [
+        {
+            "base": "utoken",
+            "symbol": "TOKEN",
+            "exponent": "6",
+            "coingecko_id": "enreach",
+            "logo": "/logos/axelar.svg"
+        }
+    ]
+}
