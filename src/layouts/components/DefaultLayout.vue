@@ -81,10 +81,7 @@ dayjs()
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
-          <img class="w-10 h-10" src="../../assets/logo.svg" />
-          <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-            Ping.pub
-          </h1>
+          <img class="w-full h-14" src="../../assets/logo-text.png" />
         </RouterLink>
         <div
           class="pr-4 cursor-pointer xl:!hidden"
@@ -144,7 +141,7 @@ dayjs()
               {{ item?.badgeContent }}
             </div>
           </div>
-          <div class="collapse-content">            
+          <div class="collapse-content">
             <div v-for="(el, key) of item?.children" class="menu bg-base-100 w-full !p-0">
               <RouterLink
                 v-if="isNavLink(el)"
@@ -183,7 +180,7 @@ dayjs()
               </RouterLink>
             </div>
             <div v-if="index === 0 && dashboard.networkType === NetworkType.Testnet" class="menu bg-base-100 w-full !p-0">
-              <RouterLink 
+              <RouterLink
               class="hover:bg-gray-100 dark:hover:bg-[#373f59] rounded cursor-pointer px-3 py-2 flex items-center"
               :to="`/${blockchain.chainName}/faucet`">
                 <Icon
@@ -196,7 +193,7 @@ dayjs()
                   Faucet
                 </div>
                 <div
-                  class="badge badge-sm text-white border-none badge-error ml-auto" 
+                  class="badge badge-sm text-white border-none badge-error ml-auto"
                 >
                   New
                 </div>
@@ -232,7 +229,7 @@ dayjs()
           </div>
           <div
             v-if="item?.badgeContent"
-            class="badge badge-sm text-white border-none" 
+            class="badge badge-sm text-white border-none"
             :class="item?.badgeClass"
           >
             {{ item?.badgeContent }}
