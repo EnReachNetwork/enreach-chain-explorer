@@ -11,10 +11,10 @@
       By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://ping.pub"
+        href="https://enreach.network/"
         target="_blank"
         rel="noopener noreferrer"
-        >Ping.pub</a
+        >Enreach Network</a
       >
     </div>
     <div
