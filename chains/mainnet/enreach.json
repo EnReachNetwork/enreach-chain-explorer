@@ -11,7 +11,7 @@
     "coin_type": "118",
     "min_tx_fee": "800",
     "addr_prefix": "enreach",
-    "logo": "/logos/axelar.svg",
+    "logo": "https://purple-bitter-skink-390.mypinata.cloud/ipfs/bafkreicp26zuuyxcylns22wknx2wgeimtxxgzka757if5upwrn33wr7hfa",
     "theme_color": "#161723",
     "assets": [
         {
