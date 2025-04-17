@@ -1,0 +1,19 @@
+{
+    "name": "ping.pub",
+    "version": "3.0.0",
+    "private": true,
+    "target": "",
+    "scripts": {
+      "dev": "vite",
+      "serve": "vite",
+      "build": "run-p type-check build-only",
+      "preview": "vite preview",
+      "build-only": "vite build",
+      "type-check": "vue-tsc --noEmit"
+    },
+    "dependencies": {
+      "express": "^4.x"
+    }
+    
+  }
+  
