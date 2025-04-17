@@ -1,9 +1,10 @@
 name: docker
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - 'master-backup'
+      - 'enreach'
 
 jobs:
   docker:
