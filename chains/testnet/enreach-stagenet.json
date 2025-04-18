@@ -1,0 +1,25 @@
+{
+    "chain_name": "Enreach Stagenet",
+    "api": [
+        "https://staging-chain.enreach.network"
+    ],
+    "rpc": [
+        "https://staging-rpc.enreach.network"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.50.6",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "enreach",
+    "logo": "https://purple-bitter-skink-390.mypinata.cloud/ipfs/bafkreicp26zuuyxcylns22wknx2wgeimtxxgzka757if5upwrn33wr7hfa",
+    "theme_color": "#161723",
+    "assets": [
+        {
+            "base": "uekc",
+            "symbol": "EKC",
+            "exponent": "6",
+            "coingecko_id": "enreach",
+            "logo": "/logos/axelar.svg"
+        }
+    ]
+}
