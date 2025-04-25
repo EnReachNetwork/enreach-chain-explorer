@@ -1,10 +1,10 @@
 {
     "chain_name": "Enreach Devnet",
     "api": [
-        "https://beta-chain.enreach.network"
+        "https://devnet-chain.enreach.network"
     ],
     "rpc": [
-        "https://beta-rpc.enreach.network"
+        "https://devnet-rpc.enreach.network"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.50.6",
